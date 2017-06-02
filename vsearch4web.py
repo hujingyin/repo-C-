@@ -12,7 +12,7 @@ for f in file_names:
     with open('class_name/{fn}'.format(fn = f),'r',encoding='utf8') as file_object:
         dict_class_name[f.strip('.txt')] = file_object.read().splitlines()
 for f in file_names:
-    with open('class_time/{fn}'.format(fn = f),'r',encoding='utf8') as file_object:
+    with open('class_time/{fn}'.format(fn = f),'r',encoding='utf8') as file_object:   "用csv形式"
         dict_class_time[f.strip('.txt')] = file_object.read().splitlines()
 
 @app.route('/search4', methods=['POST'])
