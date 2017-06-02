@@ -24,4 +24,4 @@ vsearch4web
 * [github](https://api.github.com/)
 
 ## 作者成员：
-见[_team_.tsv](https://github.com/hanteng/nfu_newmedia_python/blob/master/pick_a_color_4web/_team_/_team_.tsv)
+见[_team_.tsv](https://github.com/hujingyin/repo-C-/blob/master/_team_.tsv)
