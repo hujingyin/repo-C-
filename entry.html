@@ -6,8 +6,8 @@
 
 <form method='POST' action='/pick_a_country'>
 <table>
-<th colspan="2">请选取老师的姓名：</th>
-<tr><td>课程名称: </td><td>
+<th colspan="2">老师的姓名：</th>
+<tr><td>请选取需要查找的课程名称: </td><td>
   <select name='user_classtime'>
   {% for item in the_list_items %}
     <option value="{{item}}">{{item}}</option>
